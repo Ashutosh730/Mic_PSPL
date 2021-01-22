@@ -9,6 +9,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -20,6 +22,7 @@ public class HomePage extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle toggle;
     private NavigationView navigationView;
+    private Button chooseVideo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,16 +56,13 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
-        new Handler().postDelayed(new Runnable(){
+        chooseVideo.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void run() {
-                /* Create an Intent that will start the Menu-Activity. */
-                Intent mainIntent = new Intent(HomePage.this,UserDashBoad.class);
-                startActivity(mainIntent);
-                finish();
+            public void onClick(View v) {
+                Intent switchActivity = new Intent(HomePage.this , VideoDetail.class);
+                startActivity(switchActivity);
             }
-        }, 3000);
-
+        });
     }
 
     @Override

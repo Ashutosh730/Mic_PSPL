@@ -25,7 +25,8 @@ public class SignUp extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                switchToHomePage();
+                Intent switchActivity = new Intent(SignUp.this , AccountCreated.class);
+                startActivity(switchActivity);
             }
         });
 

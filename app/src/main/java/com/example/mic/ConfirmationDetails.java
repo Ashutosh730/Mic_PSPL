@@ -63,7 +63,6 @@ public class ConfirmationDetails extends AppCompatActivity {
                 startActivity(switchActivity);
             }
         });
-
     }
 
     @Override

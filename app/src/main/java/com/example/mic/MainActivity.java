@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView signUp;
+    private TextView signUp, forgotPassword;
     private Button login;
     private LinearLayout facebook_login, google_login;
 
@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         login = findViewById(R.id.login);
         facebook_login = findViewById(R.id.facebook_login);
         google_login = findViewById(R.id.google_login);
+        forgotPassword = findViewById(R.id.forgotPassword);
 
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,10 +57,17 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        forgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent switchActivity = new Intent(MainActivity.this , ForgotPassword.class);
+                startActivity(switchActivity);
+            }
+        });
     }
 
     private void switchToHomePage(){
         Intent switchActivity = new Intent(MainActivity.this , HomePage.class);
-        MainActivity.this.startActivity(switchActivity);
+        startActivity(switchActivity);
     }
 }
