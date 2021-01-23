@@ -9,29 +9,35 @@
         android:roundIcon="@mipmap/mic_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Mic">
-        <activity android:name=".VideoDetail"></activity>
-        <activity android:name=".CreatePassword" />
-        <activity android:name=".ForgotPassword" />
+        <activity android:name=".VideoDetail"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".CreatePassword"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".ForgotPassword"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".AccountCreated"
-            android:theme="@style/Theme.Design.NoActionBar" />
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".Final"
-            android:theme="@style/Theme.Design.NoActionBar" />
-        <activity android:name=".Payment" />
-        <activity android:name=".ConfirmationDetails" />
-        <activity android:name=".UserDashBoad" />
-        <activity android:name=".HomePage" />
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".Payment"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".ConfirmationDetails"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".UserDashBoad"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity android:name=".HomePage"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".SignUp"
-            android:theme="@style/Theme.Design.NoActionBar" />
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".SplashScreen"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
         <activity
@@ -39,8 +45,7 @@
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
     </application>
