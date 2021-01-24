@@ -110,8 +110,8 @@
                 android:textStyle="bold"
                 android:paddingLeft="32dp"
                 android:paddingRight="32dp"
-                android:textColor="@color/white"
-                android:background="@color/yellow"
+                android:textColor="@color/diff_black"
+                android:background="@drawable/button_design"
                 android:layout_gravity="center"
                 android:layout_marginBottom="16dp"/>
         </LinearLayout>

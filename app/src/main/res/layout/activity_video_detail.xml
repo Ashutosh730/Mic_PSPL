@@ -141,6 +141,8 @@
                     android:background="@drawable/design_for_editview"
                     android:gravity="start|center"
                     android:hint="Artist Name"
+                    android:paddingLeft="8dp"
+                    android:textColorHint="@android:color/darker_gray"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -162,7 +164,9 @@
                     android:layout_marginBottom="24dp"
                     android:background="@drawable/design_for_editview"
                     android:gravity="start|center"
+                    android:paddingLeft="8dp"
                     android:hint="Contest Name"
+                    android:textColorHint="@android:color/darker_gray"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -184,7 +188,9 @@
                     android:layout_marginBottom="24dp"
                     android:background="@drawable/design_for_editview"
                     android:gravity="start|center"
+                    android:paddingLeft="8dp"
                     android:hint="Mobile Name"
+                    android:textColorHint="@android:color/darker_gray"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -204,10 +210,11 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="42dp"
                     android:layout_marginBottom="24dp"
+                    android:paddingLeft="8dp"
                     android:background="@drawable/design_for_editview"
                     android:gravity="start|center"
                     android:hint="Song Name"
-                    android:outlineProvider="bounds"
+                    android:textColorHint="@android:color/darker_gray"
                     android:textColor="@color/black"
                     android:textSize="20sp" />
 
@@ -218,7 +225,7 @@
                     android:layout_gravity="center"
                     android:gravity="center"
                     android:text="save"
-                    android:background="@color/yellow"
+                    android:background="@drawable/button_design"
                     android:textAllCaps="true"
                     android:textColor="@color/black"
                     android:textSize="24sp"
