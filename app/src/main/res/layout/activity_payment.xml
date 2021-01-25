@@ -71,8 +71,9 @@
                         android:textSize="32sp"
                         android:textColor="@color/black"
                         android:textStyle="bold"
-                        android:background="@color/yellow"
-                        android:padding="32dp"/>
+                        android:background="@drawable/textview_desgin"
+                        android:padding="32dp"
+                        />
 
                     <LinearLayout
                         android:layout_width="match_parent"
