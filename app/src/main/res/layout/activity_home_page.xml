@@ -75,6 +75,7 @@
                 android:text="File Format: '.webm' '.flv' '.3gp' '.3gp2' '.mp4' more..."
                 android:gravity="center"
                 android:textSize="15sp"
+                android:textColor="@color/red"
                 android:layout_marginBottom="16dp"/>
 
         </LinearLayout>
@@ -121,7 +122,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="@color/white"
+            android:background="@drawable/design_for_editview"
             android:layout_margin="42dp">
 
             <ImageView
