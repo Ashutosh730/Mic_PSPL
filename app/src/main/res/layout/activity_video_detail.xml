@@ -62,14 +62,14 @@
             android:layout_marginLeft="0dp"
             android:layout_marginEnd="0dp"
             android:layout_marginRight="0dp"
-            android:background="@color/yellow"
+            android:background="@drawable/textview_desgin"
             android:gravity="center"
             android:paddingTop="32dp"
             android:paddingBottom="32dp"
             android:text="Upload your Video here"
             android:textColor="@color/black"
             android:textSize="32sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
 
         <FrameLayout
@@ -84,7 +84,8 @@
             android:layout_marginLeft="16dp"
             android:layout_marginTop="125dp"
             android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp">
+            android:layout_marginRight="16dp"
+            android:background="@drawable/design_for_editview">
 
             <LinearLayout
                 android:layout_width="match_parent"
