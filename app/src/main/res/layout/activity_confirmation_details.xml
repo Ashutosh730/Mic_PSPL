@@ -9,7 +9,6 @@
     android:background="@color/yellow"
     tools:context=".HomePage">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
